@@ -1,10 +1,11 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 h1{
     font-size: 50px;
 }
-.world{
+.MATRIX{
     color:dodgerblue;
 }
 .halfWid{
@@ -12,7 +13,23 @@ h1{
     float: left;
     margin-left: 5%;
     padding-left: 5% ;
+    padding-top: 5%;
 }
 .halfWid img{
     width: 70%; 
+ }
+ .top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+ }
+ section{
+    height: 500px;
+ }
+ .butlink{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-image: linear-gradient(45deg,aqua,cadetblue);
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
  }
