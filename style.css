@@ -18,7 +18,7 @@ p{
     width: 40%;
     float: left;
     margin-left: 5%;
-    padding-left: 5% ;
+    padding-left: 2% ;
     padding-top: 5%;
 }
 .halfWid img{
@@ -45,4 +45,32 @@ p{
     background-image: url("images/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.shadow{
+    box-shadow: 10px 10px 40px rgb(75, 212, 239);
+    border-radius: 5px;
+    height: 60%;
+    background-color: white;
+}
+
+.BOOKS{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#b1{
+    border-right: 5px solid;
+    border-image: linear-gradient(180deg, rgb(253, 1, 203),rgb(248, 42, 1));
+    border-image-slice: 1;
+}
+#b2{
+    border-right: 5px solid;
+    border-image: linear-gradient(180deg, rgb(1, 211, 253),rgb(92, 1, 248));
+    border-image-slice: 1;
+}
+footer p{
+ text-align: center;
+ font-size: 20px;
 }
