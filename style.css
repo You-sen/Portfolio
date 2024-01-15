@@ -5,6 +5,12 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
+}
 .MATRIX{
     color:dodgerblue;
 }
@@ -24,6 +30,7 @@ h1{
  }
  section{
     height: 500px;
+    padding-bottom: 200px;
  }
  .butlink{
     text-decoration: none;
@@ -33,3 +40,9 @@ h1{
     color: white;
     font-weight: 700;
  }
+
+.mid{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
